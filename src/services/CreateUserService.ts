@@ -9,8 +9,6 @@ interface IUserRequest {
     password: string;
 
 }
-
-
 class CreateUserService {
 
     async execute({ nome, email, admin = false, password }: IUserRequest) {
